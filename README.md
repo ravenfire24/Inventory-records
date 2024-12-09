@@ -49,7 +49,7 @@ An application to manage inventory records for a small business, featuring funct
    ```bash
    g++ --version
 
-
+![alt text](https://github.com/ravenfire24/Inventory-records/blob/ff9a8fb0bb2d92c7ae028f3baa4a8c573d992801/screenshot%206.png)
    
   
 
