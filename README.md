@@ -34,7 +34,7 @@ An application to manage inventory records for a small business, featuring funct
    sudo dpkg -i code*.deb
 
 #### Fedora/Red Hat/CentOS
-Navigate to the directory with the .rpm file.
+1. Navigate to the directory with the .rpm file.
 ```bash
 sudo rpm -i code*.rpm
 
