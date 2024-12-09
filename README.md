@@ -33,15 +33,17 @@ An application to manage inventory records for a small business, featuring funct
 2. Run the following command to install VS Code:
    ```bash
    sudo dpkg -i code*.deb
+ 
    
 ## Step 3: Installing MinGW-w64
-- Download and install MinGW-w64 for Windows (https://www.msys2.org/)
-- Installing the MinGW-w64 for Linux: 
-```bash
-     sudo apt-get install build-essential gdb
-- Installing the MinGW-w64 for MacOS 
-```bash
-   xcode-select --install
+- For Windows (https://www.msys2.org/)
+- For Ubuntu/Debian: 
+  ```bash
+  sudo apt-get install build-essential gdb
+- For MacOS 
+  ```bash
+  xcode-select --install
+
 
    
   
