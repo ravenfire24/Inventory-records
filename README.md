@@ -50,7 +50,7 @@ An application to manage inventory records for a small business, featuring funct
       ```bash
        g++ --version 
 
-   3. to confirm proper setup.
+   
   
 
   
