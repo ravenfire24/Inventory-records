@@ -38,13 +38,7 @@ Navigate to the directory with the .rpm file.
 ```bash
 sudo rpm -i code*.rpm
 
-- Install dependencies if required:
-   
-      sudo apt-get install -f
-
-
 ##  Step 3: Installing MinGW-w64
-
 ### Download and install MinGW-w64 based on your operating system:
 - **Windows**: [Download MinGW-w64](https://www.msys2.org/)  
 - **Linux**:  
