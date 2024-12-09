@@ -1,15 +1,16 @@
 # Inventory records for a small business
 An application to manage inventory records for a small business, featuring functionalities such as adding, updating, and searching products in real-time.
 
-
 ## Step 1: Download VS Code
+
 1. Visit the [official Visual Studio Code website](https://code.visualstudio.com/Download).
 2. Select the appropriate download for your operating system:
    - **Windows**: Click the **Download for Windows** button.
    - **macOS**: Download the `.dmg` file for macOS.
    - **Linux**: Choose the `.deb` (Debian/Ubuntu) or `.rpm` (Fedora/Red Hat/CentOS) package based on your distribution.
-     
-##  Step 2: Installing VS Code
+
+## Step 2: Installing VS Code
+
 ### Windows Installation
 1. Open the downloaded `.exe` file.
 2. Accept the license agreement.
@@ -32,28 +33,15 @@ An application to manage inventory records for a small business, featuring funct
 2. Run the following command to install VS Code:
    ```bash
    sudo dpkg -i code*.deb
-
-### Fedora/Red Hat/CentOS
-Navigate to the directory with the .rpm file.
+   
+## Step 3: Installing MinGW-w64
+Download and install MinGW-w64 in Windows (https://www.msys2.org/)
+Installing the MinGW-w64 in Linux in command line: 
 ```bash
-sudo rpm -i code*.rpm
-
-##  Step 3: Installing MinGW-w64
-### Download and install MinGW-w64 based on your operating system:
-  **Windows**: [Download MinGW-w64](https://www.msys2.org/)  
-  **Linux**:  
-  ```bash
-        sudo apt-get install build-essential gdb
-  **MacOS**:  
-  ```bash
-  xcode-select --install
-
-##  Step 4: Verify installation
-1. Open a terminal in VS Code:
-2. Go to View > Terminal or press Ctrl+ (Mac: Cmd+).
-3. Run a test command (e.g.,
-      ```bash
-         g++ --version 
+     sudo apt-get install build-essential gdb
+Installing the MinGW-w64 in MacOS in command line:
+``bash
+   xcode-select --install
 
    
   
