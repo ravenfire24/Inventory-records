@@ -40,11 +40,11 @@ sudo rpm -i code*.rpm
 
 ##  Step 3: Installing MinGW-w64
 ### Download and install MinGW-w64 based on your operating system:
-- **Windows**: [Download MinGW-w64](https://www.msys2.org/)  
-- **Linux**:  
+  **Windows**: [Download MinGW-w64](https://www.msys2.org/)  
+  **Linux**:  
   ```bash
-  sudo apt-get install build-essential gdb
-- **MacOS**:  
+        sudo apt-get install build-essential gdb
+  **MacOS**:  
   ```bash
   xcode-select --install
 
