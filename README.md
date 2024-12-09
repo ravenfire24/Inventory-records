@@ -34,7 +34,7 @@ An application to manage inventory records for a small business, featuring funct
    sudo dpkg -i code*.deb
 
 #### Fedora/Red Hat/CentOS
-1. Navigate to the directory with the .rpm file.
+Navigate to the directory with the .rpm file.
 ```bash
 sudo rpm -i code*.rpm
 
@@ -42,7 +42,9 @@ sudo rpm -i code*.rpm
    ```bash
    sudo apt-get install -f
 
+
 ##  Step 3: Installing MinGW-w64
+
 ### Download and install MinGW-w64 based on your operating system:
 - **Windows**: [Download MinGW-w64](https://www.msys2.org/)  
 - **Linux**:  
