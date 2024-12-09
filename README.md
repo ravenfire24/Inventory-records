@@ -45,8 +45,12 @@ An application to manage inventory records for a small business, featuring funct
 
 ##  Step 4: Verify installation
 ###   Open a terminal in VS Code:
-   Go to View > Terminal or press Ctrl+ (Mac: Cmd+).
-   Run a test command (e.g., ```bash g++ --version ) to confirm proper setup.
+   1. Go to View > Terminal or press Ctrl+ (Mac: Cmd+).
+   2. Run a test command (e.g.,
+      ```bash
+       g++ --version 
+
+   3. to confirm proper setup.
   
 
   
