@@ -43,6 +43,12 @@ An application to manage inventory records for a small business, featuring funct
   ```bash
   xcode-select --install
 
+## Step 4: Verify installation
+ - Open a terminal in VS Code
+ - Go to View > Terminal or press Ctrl+ (Mac: Cmd+).
+   ```bash
+   g++ --version
+
 
    
   
