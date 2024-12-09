@@ -1,6 +1,6 @@
 # Inventory records for a small business
 An application to manage inventory records for a small business, featuring functionalities such as adding, updating, and searching products in real-time.
-
+(https://github.com/ravenfire24/Inventory-records/blob/cd63bcbf8bb3e5f093a1b266d641f514c8d5f107/inventory.mp4)
 ## Step 1: Download VS Code
 
 1. Visit the [official Visual Studio Code website](https://code.visualstudio.com/Download).
