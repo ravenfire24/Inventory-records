@@ -14,6 +14,11 @@ An application to manage inventory records for a small business, featuring funct
 - **Linux**:  
   ```bash
   sudo apt-get install build-essential gdb
+- **MacOS**:  
+  ```bash
+  xcode-select --install
+
+  
 
 
 
