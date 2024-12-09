@@ -33,12 +33,12 @@ An application to manage inventory records for a small business, featuring funct
    ```bash
    sudo dpkg -i code*.deb
 
-#### Fedora/Red Hat/CentOS
+### Fedora/Red Hat/CentOS
 Navigate to the directory with the .rpm file.
 ```bash
 sudo rpm -i code*.rpm
 
-1. Install dependencies if required
+- Install dependencies if required:
    ```bash
    sudo apt-get install -f
 
