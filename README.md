@@ -35,11 +35,11 @@ An application to manage inventory records for a small business, featuring funct
    sudo dpkg -i code*.deb
    
 ## Step 3: Installing MinGW-w64
-Download and install MinGW-w64 in Windows (https://www.msys2.org/)
-Installing the MinGW-w64 in Linux in command line: 
+- Download and install MinGW-w64 in Windows (https://www.msys2.org/)
+- Installing the MinGW-w64 in Linux in command line: 
 ```bash
      sudo apt-get install build-essential gdb
-Installing the MinGW-w64 in MacOS in command line:
+- Installing the MinGW-w64 in MacOS in command line:
 ``bash
    xcode-select --install
 
