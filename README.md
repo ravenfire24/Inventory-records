@@ -49,9 +49,9 @@ sudo rpm -i code*.rpm
   xcode-select --install
 
 ##  Step 4: Verify installation
-###   Open a terminal in VS Code:
-    Go to View > Terminal or press Ctrl+ (Mac: Cmd+).
-    Run a test command (e.g.,
+1. Open a terminal in VS Code:
+2. Go to View > Terminal or press Ctrl+ (Mac: Cmd+).
+3. Run a test command (e.g.,
       ```bash
          g++ --version 
 
