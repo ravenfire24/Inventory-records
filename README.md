@@ -1,6 +1,10 @@
 # Inventory records for a small business
 An application to manage inventory records for a small business, featuring functionalities such as adding, updating, and searching products in real-time.
 
+## Web UI
+
+This repository now includes a static browser interface for the inventory workflow. Open `index.html` locally or deploy the folder to Vercel to manage product IDs, names, quantities, prices, categories, stock status, and CSV export from the browser.
+
 ![inventory](https://github.com/ravenfire24/Inventory-records/blob/bc8a1bfaf5d46ea10ed6e9aac35dec39acfafe0a/inventory.gif)
 ## Step 1: Download VS Code
 
@@ -56,7 +60,6 @@ An application to manage inventory records for a small business, featuring funct
   
 
   
-
 
 
 
