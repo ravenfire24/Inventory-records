@@ -1,12 +1,8 @@
-const STORAGE_KEY = "inventory-records-products";
+const STORAGE_KEY = "inventory-records-products-v3";
+const LEGACY_STORAGE_KEYS = ["inventory-records-products", "inventory-records-products-v2"];
 const LOW_STOCK_LIMIT = 10;
 
-const demoProducts = [
-  { id: 101, name: "Receipt Paper", quantity: 42, price: 3.95, category: "Supplies" },
-  { id: 204, name: "Work Gloves", quantity: 8, price: 12.5, category: "Hardware" },
-  { id: 315, name: "Canvas Tote", quantity: 23, price: 9.99, category: "Apparel" },
-  { id: 428, name: "Coffee Beans", quantity: 14, price: 18.75, category: "Food" }
-];
+LEGACY_STORAGE_KEYS.forEach((key) => localStorage.removeItem(key));
 
 const form = document.querySelector("#productForm");
 const searchInput = document.querySelector("#searchInput");
@@ -25,13 +21,13 @@ let products = loadProducts();
 
 function loadProducts() {
   const saved = localStorage.getItem(STORAGE_KEY);
-  if (!saved) return [...demoProducts];
+  if (!saved) return [];
 
   try {
     const parsed = JSON.parse(saved);
-    return Array.isArray(parsed) ? parsed : [...demoProducts];
+    return Array.isArray(parsed) ? parsed : [];
   } catch {
-    return [...demoProducts];
+    return [];
   }
 }
 
@@ -178,14 +174,14 @@ productRows.addEventListener("click", (event) => {
 });
 
 searchInput.addEventListener("input", render);
-clearButton.addEventListener("click", clearForm);
+clearButton.addEventListener("click", () => clearForm());
 
 resetButton.addEventListener("click", () => {
-  products = [...demoProducts];
+  products = [];
   saveProducts();
   clearForm();
   searchInput.value = "";
-  formNote.textContent = "Demo inventory restored.";
+  formNote.textContent = "Inventory cleared.";
   render();
 });
 

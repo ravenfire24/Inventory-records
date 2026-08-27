@@ -4,20 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inventory Records</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=4">
   </head>
   <body>
     <div class="app-shell">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Small business inventory</p>
           <h1>Inventory Records</h1>
         </div>
         <div class="toolbar" aria-label="Inventory actions">
           <button class="icon-button" id="exportButton" type="button" title="Export inventory" aria-label="Export inventory">
             <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
           </button>
-          <button class="icon-button danger" id="resetButton" type="button" title="Reset demo data" aria-label="Reset demo data">
+          <button class="icon-button danger" id="resetButton" type="button" title="Clear inventory" aria-label="Clear inventory">
             <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6h18M8 6V4h8v2m-6 5v6m4-6v6M6 6l1 15h10l1-15"/></svg>
           </button>
         </div>
@@ -123,13 +122,10 @@
             <p class="form-note" id="formNote" role="status" aria-live="polite">Ready to manage inventory records.</p>
           </form>
 
-          <section class="preview" aria-label="Project preview">
-            <img src="inventory.gif" alt="Original terminal inventory application preview">
-          </section>
         </aside>
       </main>
     </div>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=4"></script>
   </body>
 </html>

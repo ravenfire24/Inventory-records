@@ -1,70 +1,43 @@
-# Inventory records for a small business
-An application to manage inventory records for a small business, featuring functionalities such as adding, updating, and searching products in real-time.
+# Inventory Records
 
-## Web UI
+A simple inventory management web app for tracking product records. Users can add, update, search, delete, clear, and export inventory items from the browser.
 
-This repository now includes a static browser interface for the inventory workflow. Open `index.html` locally or deploy the folder to Vercel to manage product IDs, names, quantities, prices, categories, stock status, and CSV export from the browser.
+![Inventory Records web UI](assets/inventory-ui.png)
 
-![inventory](https://github.com/ravenfire24/Inventory-records/blob/bc8a1bfaf5d46ea10ed6e9aac35dec39acfafe0a/inventory.gif)
-## Step 1: Download VS Code
+## Features
 
-1. Visit the [official Visual Studio Code website](https://code.visualstudio.com/Download).
-2. Select the appropriate download for your operating system:
-   - **Windows**: Click the **Download for Windows** button.
-   - **macOS**: Download the `.dmg` file for macOS.
-   - **Linux**: Choose the `.deb` (Debian/Ubuntu) or `.rpm` (Fedora/Red Hat/CentOS) package based on your distribution.
+- Add products with ID, name, quantity, price, and category
+- Update existing product records
+- Search products by ID or name
+- View total products, total units, inventory value, and low-stock count
+- Delete individual products
+- Clear all inventory records
+- Export inventory data as a CSV file
 
-## Step 2: Installing VS Code
+## Tech Used
 
-### Windows Installation
-1. Open the downloaded `.exe` file.
-2. Accept the license agreement.
-3. Select the installation location and click **Next**.
-4. Choose additional tasks (recommended):
-   - Check **Add to PATH**.
-   - Check **Create a desktop icon**.
-5. Click **Install** and wait for the process to complete.
-6. Once installed, click **Finish** to launch VS Code.
+- HTML
+- CSS
+- JavaScript
+- Browser localStorage
 
-### macOS Installation
-1. Open the downloaded `.dmg` file.
-2. Drag the **Visual Studio Code** icon into the **Applications** folder.
-3. Open your **Applications** folder and double-click **Visual Studio Code** to launch it.
+## Project Files
 
-### Linux Installation
+- `index.html` - main web page
+- `styles.css` - page styling
+- `app.js` - inventory logic
+- `package.json` - local development script
 
-#### Ubuntu/Debian
-1. Open the terminal and navigate to the directory containing the `.deb` file.
-2. Run the following command to install VS Code:
-   ```bash
-   sudo dpkg -i code*.deb
- 
-   
-## Step 3: Installing MinGW-w64
-- For Windows (https://www.msys2.org/)
-- For Ubuntu/Debian: 
-  ```bash
-  sudo apt-get install build-essential gdb
-- For MacOS 
-  ```bash
-  xcode-select --install
+## Run Locally
 
-## Step 4: Verify installation
- - Open a terminal in VS Code
- - Go to View > Terminal or press Ctrl+ (Mac: Cmd+).
-   ```bash
-   g++ --version
+Open `index.html` in a browser, or run:
 
-![alt text](https://github.com/ravenfire24/Inventory-records/blob/ff9a8fb0bb2d92c7ae028f3baa4a8c573d992801/screenshot%206.png)
-   
-  
+```bash
+npm run dev
+```
 
-  
+Then visit:
 
-
-
-
-
-
-
-
+```text
+http://127.0.0.1:4173
+```

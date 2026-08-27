@@ -407,21 +407,6 @@ select:focus {
   font-size: 0.9rem;
 }
 
-.preview {
-  margin-top: 18px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  overflow: hidden;
-  background: #101613;
-}
-
-.preview img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
