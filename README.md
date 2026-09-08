@@ -2,7 +2,7 @@
 
 A simple inventory management web app for tracking product records. Users can add, update, search, delete, clear, and export inventory items from the browser.
 
-Live Demo: https://inventory-records-seven.vercel.app
+Live App: https://inventory-records-seven.vercel.app
 
 ![Inventory Records web UI](assets/inventory-ui.png)
 
